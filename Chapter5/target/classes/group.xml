@@ -10,16 +10,6 @@
         </classes>
     </test>
     <test name="groups">
-        <!--
-        测试类分组，执行stu分组中的类
-        （需要在类的上面添加groups属性）
-        @Test(groups = "stu")
-        public class GroupOnClass2 {
-            public void student1(){
-                System.out.println("student2222222222222");
-            }
-        }
-        -->
         <groups>
             <run>
                 <include name="stu"/>
