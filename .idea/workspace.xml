@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639d32f7-6419-466f-9923-0bcb9a7c77ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/ExceptException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Annotation/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/Annotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnClass3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnClass3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnTeacher1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnTeacher1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnTeacher2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupOnTeacher2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/Pay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/resources/group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/group.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/Annotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/Annotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/group.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,24 +41,7 @@
       <recent name="com.course.testng.groups" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/interfaceworkspace/muke/Chapter5/src/main/resources/group.xml">
-    <configuration name="Annotation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.Annotation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ExceptException.exceptExceptionSuccess">
     <configuration name="E:/interfaceworkspace/muke/Chapter5/src/main/resources/group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/group.xml" />
@@ -89,6 +56,41 @@
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptException" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.ExceptException" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptException.exceptExceptionSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.ExceptException" />
+      <option name="METHOD_NAME" value="exceptExceptionSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -112,30 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.IgnoreTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExceptException.exceptExceptionSuccess" />
+        <item itemvalue="TestNG.ExceptException" />
         <item itemvalue="TestNG.E:/interfaceworkspace/muke/Chapter5/src/main/resources/group.xml" />
         <item itemvalue="TestNG.GroupsOnMethod" />
         <item itemvalue="TestNG.E:/interfaceworkspace/muke/Chapter5/src/main/resources/suite.xml" />
-        <item itemvalue="TestNG.IgnoreTest" />
-        <item itemvalue="TestNG.Annotation" />
       </list>
     </recent_temporary>
   </component>
@@ -150,28 +135,46 @@
       <option name="presentableId" value="Default" />
       <updated>1613358179938</updated>
     </task>
+    <task id="LOCAL-00001" summary="testNg的测试标签">
+      <created>1613379599400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613379599400</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="testNg的测试标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="testNg的测试标签" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="422" key="GridCell.Tab.0.bottom" timestamp="1613375983324">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1613379597550">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="422" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613375983324" />
-    <state width="1237" height="422" key="GridCell.Tab.0.center" timestamp="1613375983324">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1613379597550" />
+    <state width="1237" height="422" key="GridCell.Tab.0.bottom" timestamp="1613380241828">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="422" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613375983324" />
-    <state width="1237" height="422" key="GridCell.Tab.0.left" timestamp="1613375983324">
+    <state width="1237" height="422" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613380241828" />
+    <state width="1237" height="422" key="GridCell.Tab.0.center" timestamp="1613380241828">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="422" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613375983324" />
-    <state width="1237" height="422" key="GridCell.Tab.0.right" timestamp="1613375983324">
+    <state width="1237" height="422" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613380241828" />
+    <state width="1237" height="422" key="GridCell.Tab.0.left" timestamp="1613380241828">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="422" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613375983324" />
+    <state width="1237" height="422" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613380241828" />
+    <state width="1237" height="422" key="GridCell.Tab.0.right" timestamp="1613380241828">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="422" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613380241828" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1613379609950">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613379609950" />
     <state x="28" y="1" key="new project wizard" timestamp="1613358344941">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
