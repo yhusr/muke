@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个无参的get请求",
+    "request": {
+      "uri": "/getDemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "this is get no prama request"
+    }
+  },
+  {
+    "description": "这是一个带参的get请求",
+    "request": {
+      "uri": "/queryDemo",
+      "method": "get",
+      "queries": {
+        "name": "zhangsan",
+        "age": "23"
+      }
+    },
+    "response": {
+      "text": "This is have param request"
+    }
+  }
+]

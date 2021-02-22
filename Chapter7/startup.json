@@ -1,0 +1,11 @@
+[
+  {
+    "description": "这是第一个demo",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "响应结果显示moco平台使用"
+    }
+  }
+]

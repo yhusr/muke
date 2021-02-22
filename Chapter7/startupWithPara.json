@@ -1,0 +1,16 @@
+[
+  {
+    "description": "这是post请求带参数",
+    "request": {
+      "uri": "/withPara",
+      "method": "post",
+      "json": {
+        "name": "zhao si",
+        "age": "23"
+      }
+    },
+    "response": {
+      "text": "hu han san with para post request"
+    }
+  }
+]

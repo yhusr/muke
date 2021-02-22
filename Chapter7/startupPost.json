@@ -1,0 +1,12 @@
+[
+  {
+    "description": "这是post不带参数请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+        "text": "hu san is back post"
+    }
+  }
+]

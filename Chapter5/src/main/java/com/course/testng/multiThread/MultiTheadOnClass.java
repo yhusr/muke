@@ -8,6 +8,6 @@ public class MultiTheadOnClass {
         /**
          *
          * */
-        System.out.printf("threadNum %s%n",Thread.currentThread().getId());
+        System.out.printf("threadClass %s%n",Thread.currentThread().getId());
     }
 }

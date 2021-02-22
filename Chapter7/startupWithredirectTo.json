@@ -1,0 +1,28 @@
+[
+  {
+    "description": "这是重定向的请求",
+    "request": {
+      "uri": "/redirectToNew",
+      "method": "get"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "这是重定向到指定的界面",
+    "request": {
+      "uri": "/myPath",
+      "method": "get"
+    },
+    "redirectTo": "/newPath"
+  },
+  {
+    "description": "需要重定向到的页面",
+    "request": {
+      "uri": "/newPath",
+      "method": "get"
+    },
+    "response": {
+      "text": "redirection success new web"
+    }
+  }
+]

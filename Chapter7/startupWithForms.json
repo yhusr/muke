@@ -1,0 +1,17 @@
+[
+  {
+    "description": "这是携带header的post请求",
+    "request": {
+      "uri": "/postWithForms",
+      "method": "post",
+      "forms": {
+        "name": "zhaosi",
+        "age": "23"
+      }
+    },
+    "response": {
+      "text": "forms success"
+    }
+  }
+]
+]

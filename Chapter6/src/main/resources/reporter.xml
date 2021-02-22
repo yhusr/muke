@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="reporter">
+    <test name="testReporter">
+        <classes>
+            <class name="com.course.reporter.ReporterOnTestNg">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="testLog"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+<!--    <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+<!--        <listener class-name="com.course.reporter.ExtentTestNGIReporterListenerOld"/>-->
+        <listener class-name="com.course.reporter.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

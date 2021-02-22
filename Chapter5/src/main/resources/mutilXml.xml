@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name="test1" parallel="methods" thread-count="2">
+<suite name="test1" parallel="class" thread-count="2">
     <!--
     tests级别：不同的test tag下的用例可以在不同的线程下执行，相同的test tag下的用例只能在同一个线程中去执行
     methods级别：所有用例都可以在不同的线程下执行
+    class级别：相同的class tag下的用例在同一个线程中执行
+            不同的class tag下的用例在不同的线程中执行
     thread-count:代表最大并发线程数
     xml文件配置这种方式不指定线程池，只有方法上才能指定线程池
     -->
 
     <test name="thread">
+        <classes>
+            <class name="com.course.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+    <test name="test2">
         <classes>
             <class name="com.course.testng.multiThread.MultiThreadOnXml"/>
         </classes>

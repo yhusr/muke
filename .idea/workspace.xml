@@ -1,17 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="639d32f7-6419-466f-9923-0bcb9a7c77ec" name="Default Changelist" comment="testNg的测试标签">
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/DependOnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/multiThread/MultiTheadOnClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/multiThread/MultiThreadOnXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/ParamterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/ProviderDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/mutilXml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/param.xml" afterDir="false" />
+    <list default="true" id="639d32f7-6419-466f-9923-0bcb9a7c77ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiTheadOnClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnXml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/paramter/ProviderDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/target/classes/mutilXml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/course/reporter/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/course/reporter/ExtentTestNGIReporterListenerOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/course/reporter/ReporterOnTestNg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/reporter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/moco-runner-0.11.0-standalone.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startup1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupPost.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithCookie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithForms.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithHeader.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithPara.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithredirectTo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/操作说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter8/Chapter8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter8/src/main/java/com/course/httpclient/demo/MyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/paramter/ParamterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/paramter/ParamterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/param.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/param.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/multiThread/MultiTheadOnClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/multiThread/MultiTheadOnClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/multiThread/MultiThreadOnXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/multiThread/MultiThreadOnXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/resources/mutilXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/mutilXml.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +82,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter7" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\interfaceworkspace\muke\Chapter7" />
+      <recent name="E:\interfaceworkspace\muke\Chapter6\src\main\java\com\course\reporter" />
+      <recent name="E:\interfaceworkspace\muke" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.course.reporter" />
       <recent name="com.course.testng.groups" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\interfaceworkspace\muke\Chapter7" />
+      <recent name="E:\interfaceworkspace\muke" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/interfaceworkspace/muke/Chapter5/src/main/resources/mutilXml.xml">
+  <component name="RunManager" selected="TestNG.MyHttpClient.test1">
     <configuration name="E:/interfaceworkspace/muke/Chapter5/src/main/resources/mutilXml.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/mutilXml.xml" />
@@ -58,9 +110,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/interfaceworkspace/muke/Chapter5/src/main/resources/param.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/param.xml" />
+    <configuration name="E:/interfaceworkspace/muke/Chapter6/src/main/resources/reporter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter6" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter6/src/main/resources/reporter.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -86,17 +138,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderDate" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
+    <configuration name="MyHttpClient.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.paramter.*" />
+          <option name="PATTERN" value="com.course.httpclient.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.paramter" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.paramter.ProviderDate" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyHttpClient" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyHttpClient.test1" />
+        <item itemvalue="TestNG.E:/interfaceworkspace/muke/Chapter6/src/main/resources/reporter.xml" />
         <item itemvalue="TestNG.E:/interfaceworkspace/muke/Chapter5/src/main/resources/mutilXml.xml" />
         <item itemvalue="TestNG.MultiTheadOnClass.testPool" />
         <item itemvalue="TestNG.ProviderDate.provider2" />
-        <item itemvalue="TestNG.ProviderDate" />
-        <item itemvalue="TestNG.E:/interfaceworkspace/muke/Chapter5/src/main/resources/param.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -163,47 +216,63 @@
       <option name="project" value="LOCAL" />
       <updated>1613385308311</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testNg的多线程测试">
+      <created>1613656614149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613656614149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="testNg的测试标签" />
-    <option name="LAST_COMMIT_MESSAGE" value="testNg的测试标签" />
+    <MESSAGE value="testNg的多线程测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="testNg的多线程测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="202" key="#Notifications" timestamp="1613385534507">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="524" y="202" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1613385534507" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1613385307010">
+    <state x="385" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613960869123">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1613385307010" />
-    <state width="1237" height="223" key="GridCell.Tab.0.bottom" timestamp="1613655899504">
+    <state x="385" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1613960869123" />
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1613656612165">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613655899504" />
-    <state width="1237" height="223" key="GridCell.Tab.0.center" timestamp="1613655899504">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1613656612165" />
+    <state width="1237" height="283" key="GridCell.Tab.0.bottom" timestamp="1613983244516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613655899504" />
-    <state width="1237" height="223" key="GridCell.Tab.0.left" timestamp="1613655899504">
+    <state width="1237" height="283" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613983244516" />
+    <state width="1237" height="283" key="GridCell.Tab.0.center" timestamp="1613983244516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613655899504" />
-    <state width="1237" height="223" key="GridCell.Tab.0.right" timestamp="1613655899504">
+    <state width="1237" height="283" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613983244516" />
+    <state width="1237" height="283" key="GridCell.Tab.0.left" timestamp="1613983244516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613655899504" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1613385518940">
+    <state width="1237" height="283" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613983244516" />
+    <state width="1237" height="283" key="GridCell.Tab.0.right" timestamp="1613983244516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613385518940" />
-    <state x="28" y="1" key="new project wizard" timestamp="1613358344941">
+    <state width="1237" height="283" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613983244516" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1613656627258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1613358344941" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613656627258" />
+    <state x="28" y="1" key="new project wizard" timestamp="1613982562973">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1613982562973" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1613960902069">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1613960902069" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/muke$E__interfaceworkspace_muke_Chapter5_src_main_resources_param_xml.ic" NAME="$PROJECT_DIR$/Chapter5/src/main/resources/param.xml Coverage Results" MODIFIED="1613384677922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
