@@ -1,0 +1,48 @@
+[
+  {
+    "description": "这是响应中携带cookies的get请求",
+    "request": {
+      "uri": "/response/cookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "cookie get success"
+    }
+  },
+  {
+    "description": "这是一个携带cookie的get请求",
+    "request": {
+      "uri": "/getWithCookie",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "this is a get request with cookies"
+    }
+  },
+  {
+    "description": "这是携带header的post请求",
+    "request": {
+      "uri": "/postWithHeader",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "zhaosi",
+        "age": "23"
+      }
+    },
+    "response": {
+      "json": {
+        "name": "zhaosi",
+        "status": 1
+      }
+    }
+  }
+]
