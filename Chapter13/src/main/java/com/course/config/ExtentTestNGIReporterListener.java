@@ -1,4 +1,4 @@
-package com.course.reporter;
+package com.course.config;
 
 
 import com.aventstack.extentreports.ExtentReports;
