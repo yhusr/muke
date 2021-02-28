@@ -55,7 +55,7 @@ public class UserManager {
     }
     @ApiOperation(value = "获取用户列表接口",httpMethod = "POST")
     @RequestMapping(value = "/getUserList",method = RequestMethod.POST)
-    public List<User> getUserList(HttpServletRequest request , @RequestParam User user){
+    public List<User> getUserList(HttpServletRequest request , @RequestBody User user){
         boolean v = verifyCookies(request);
         if(v){
             List<User> userList = template.selectList("getUserList",user);
@@ -66,7 +66,7 @@ public class UserManager {
     }
     @ApiOperation(value = "这是更新用户信息的接口",httpMethod = "POST")
     @RequestMapping(value = "/updateUser",method = RequestMethod.POST)
-    public Integer updateUser(HttpServletRequest request,@RequestParam User user){
+    public Integer updateUser(HttpServletRequest request,@RequestBody User user){
         boolean v = verifyCookies(request);
         int count = 0;
         if(v){
