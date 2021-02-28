@@ -2,7 +2,7 @@ package com.course.cases;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
-import com.course.model.LoginCase;
+import com.course.model.Login;
 import com.course.utils.ConfigFile;
 import com.course.utils.DatabaseUtil;
 import org.apache.http.impl.client.BasicCookieStore;
@@ -31,16 +31,16 @@ public class LoginTest {
     @Test(groups = "loginTrue",description = "用户登录成功的接口")
     public void loginTrue() throws IOException {
         SqlSession sqlSession = DatabaseUtil.getSqlSession();
-        LoginCase loginCase = sqlSession.selectOne("loginCase",1);
-        System.out.println(loginCase.toString());
+        Login login = sqlSession.selectOne("loginCase",1);
+        System.out.println(login.toString());
         System.out.println(TestConfig.loginUrl);
     }
 
     @Test(groups = "loginFalse",description = "用户登录失败的接口")
     public void loginFalse() throws IOException {
         SqlSession sqlSession = DatabaseUtil.getSqlSession();
-        LoginCase loginCase = sqlSession.selectOne("loginCase",2);
-        System.out.println(loginCase.toString());
+        Login login = sqlSession.selectOne("loginCase",2);
+        System.out.println(login.toString());
         System.out.println(TestConfig.loginUrl);
     }
 }

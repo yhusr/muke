@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="用户管理系统测试">
-    <test>
-
+    <test name="用户管理系统">
+        <classes>
+            <class name="com.course.cases.LoginTest">
+                <method>
+                    <include name="loginTrue"/>
+                    <include name="loginFalse"/>
+                </method>
+            </class>
+            <class name="com.course.cases.AddUserCase">
+                <method>
+                    <include name="addUser"/>
+                </method>
+            </class>
+            <class name="com.course.cases.GetUserListCase">
+                <method>
+                    <include name="getUsersList"/>
+                </method>
+            </class>
+            <class name="com.course.cases.GetUserInfoCase">
+                <method>
+                    <include name="getUserInfo"/>
+                </method>
+            </class>
+            <class name="com.course.cases.UpdateUserInfoCase">
+                <method>
+                    <include name="updateUserInfo"/>
+                </method>
+            </class>
+        </classes>
     </test>
+
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+    </listeners>
 </suite>

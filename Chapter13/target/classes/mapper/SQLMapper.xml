@@ -2,7 +2,19 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.course.model">
-    <select id="loginCase" resultType="com.course.model.LoginCase">
+    <select id="loginCase" parameterType="Integer" resultType="com.course.model.Login">
         select * from loginCase where id=#{id};
+    </select>
+    <select id="addUser" resultType="com.course.model.AddUser">
+        select * from addUserCase;
+    </select>
+    <select id="getUserInfo" parameterType="Integer" resultType="com.course.model.GetUserInfo">
+        select * from getUserInfoCase where id=#{id};
+    </select>
+    <select id="updateUserInfo" parameterType="Integer" resultType="com.course.model.UpdateUserInfo">
+        select * from updateUserInfoCase where id=#{id};
+    </select>
+    <select id="getUsersList" parameterType="Integer" resultType="com.course.model.GetUserList">
+        select * from getUserListCase where id=#{id};
     </select>
 </mapper>

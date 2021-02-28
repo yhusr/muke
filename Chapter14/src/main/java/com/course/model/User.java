@@ -3,12 +3,12 @@ package com.course.model;
 import lombok.Data;
 
 @Data
-public class UpdateUserInfoCase {
+public class User {
     private int id;
-    private int userId;
     private String userName;
-    private int sex;
+    private String password;
     private int age;
+    private int sex;
     private int permission;
     private int isDelete;
 }
