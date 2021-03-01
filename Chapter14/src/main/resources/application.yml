@@ -10,7 +10,7 @@ spring:
     name: apiAuto
   datasource:
     driver-class-name:  com.mysql.jdbc.Driver
-    url:  jdbc:mysql://192.168.31.250:3306/course
+    url:  jdbc:mysql://192.168.31.250:3306/course?serverTimezone=GMT
     username: yh
     password: 123456
 
